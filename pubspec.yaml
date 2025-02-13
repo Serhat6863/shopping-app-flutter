@@ -1,0 +1,50 @@
+name: shopping
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.0.0
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - assets/images/hifashion.png
+     - assets/images/home/homeFirst.png
+     - assets/images/home/
+     - assets/images/blog/
+     - assets/images/category/
+
+  fonts:
+    - family: TenorSans
+      fonts:
+        - asset: assets/fonts/TenorSans-Regular.ttf
+    - family: BodoniModa
+      fonts:
+        - asset: assets/fonts/BodoniModa_28pt-Bold.ttf  # Il manquait un espace après le tiret
