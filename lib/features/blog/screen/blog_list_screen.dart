@@ -61,7 +61,10 @@ class _BlogListScreenState extends State<BlogListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppConstante.kBackgroundColor,
-      appBar: const MainAppBar(),
+      appBar: const MainAppBar(
+        backgroundColor: AppConstante.kBackgroundColor,
+        iconColor: AppConstante.kTextColorPrimary,
+      ),
       drawer:  const MyDrawer(),
 
       body: SingleChildScrollView(

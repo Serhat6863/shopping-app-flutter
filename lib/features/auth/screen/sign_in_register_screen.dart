@@ -268,7 +268,10 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppConstante.kBackgroundColor,
-      appBar: const MainAppBar(),
+      appBar: const MainAppBar(
+        backgroundColor: AppConstante.kBackgroundColor,
+        iconColor: AppConstante.kTextColorPrimary,
+      ),
       drawer: const Drawer(),
 
       body:  Padding(

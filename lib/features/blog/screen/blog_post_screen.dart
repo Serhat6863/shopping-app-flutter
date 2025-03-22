@@ -24,7 +24,10 @@ class _BlogPostScreenState extends State<BlogPostScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MainAppBar(),
+      appBar: MainAppBar(
+        backgroundColor: AppConstante.kBackgroundColor,
+        iconColor: AppConstante.kTextColorPrimary,
+      ),
       backgroundColor: AppConstante.kBackgroundColor,
       drawer: const MyDrawer(),
       body: SingleChildScrollView(

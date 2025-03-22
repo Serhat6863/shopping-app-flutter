@@ -36,6 +36,7 @@ flutter:
 
   assets:
      - assets/images/hifashion.png
+     - assets/images/hifashion_white.png
      - assets/images/home/homeFirst.png
      - assets/images/home/
      - assets/images/blog/

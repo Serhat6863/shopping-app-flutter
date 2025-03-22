@@ -447,7 +447,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const MainAppBar(),
+      appBar: const MainAppBar(
+        backgroundColor: AppConstante.kBackgroundColor,
+        iconColor: AppConstante.kTextColorPrimary,
+      ),
       backgroundColor: AppConstante.kBackgroundColor,
       drawer: const MyDrawer(),
 

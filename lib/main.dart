@@ -4,6 +4,7 @@ import 'package:shopping/features/blog/screen/blog_post_screen.dart';
 import 'package:shopping/features/collection/screen/collection_screen.dart';
 import 'package:shopping/features/home/screen/home_screen.dart';
 
+import 'features/account/screen/account_screen.dart';
 import 'features/blog/screen/blog_list_screen.dart';
 import 'features/cart/screen/cart_screen.dart';
 import 'features/category/screen/category_screen.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/cart': (context) => const CartScreen(),
         '/category': (context) => const CategoryScreen(),
         '/collection': (context) => const CollectionScreen(),
+        '/account': (context) => const AccountScreen(),
       },
     );
   }

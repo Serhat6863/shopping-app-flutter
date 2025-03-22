@@ -3,14 +3,22 @@ import 'package:shopping/core/constante/app_constante.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const MainAppBar({super.key});
+  const MainAppBar({super.key, required this.backgroundColor, required this.iconColor});
+
+  final Color backgroundColor;
+  final Color iconColor;
 
   @override
   Widget build(BuildContext context) {
+
+    final String logoPath = backgroundColor == AppConstante.kBackgroundColor
+    ? "assets/images/hifashion.png"
+    : "assets/images/hifashion_white.png";
+
     return AppBar(
-      backgroundColor: AppConstante.kBackgroundColor,
+      backgroundColor: backgroundColor,
       title: Image.asset(
-        "assets/images/hifashion.png",
+        logoPath,
         height: 21.83,
         width: 129.63,
       ),
@@ -18,11 +26,11 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         IconButton(
           onPressed: () {},
-          icon: const FaIcon(FontAwesomeIcons.magnifyingGlass, size: 24,),
+          icon:  FaIcon(FontAwesomeIcons.magnifyingGlass, size: 24, color: iconColor,),
         ),
         IconButton(
           onPressed: () => Navigator.pushNamed(context, '/cart'),
-          icon: const FaIcon(FontAwesomeIcons.bagShopping, size: 24,),
+          icon: FaIcon(FontAwesomeIcons.bagShopping, size: 24, color: iconColor,),
         ),
       ],
     );
