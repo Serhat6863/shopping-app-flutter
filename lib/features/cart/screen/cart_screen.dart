@@ -39,7 +39,7 @@ class _CartScreenState extends State<CartScreen> {
           GestureDetector(
             onTap: (){},
             child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: AppConstante.kTextColorPrimary,
               ),
               width: double.infinity,
@@ -47,7 +47,7 @@ class _CartScreenState extends State<CartScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  FaIcon(
+                  const FaIcon(
                     FontAwesomeIcons.bagShopping,
                     color: AppConstante.kBackgroundColor,
                   ),

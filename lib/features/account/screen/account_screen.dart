@@ -11,11 +11,11 @@ class AccountScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MainAppBar(
+      appBar: const MainAppBar(
         backgroundColor: AppConstante.kBackgroundColor,
         iconColor: AppConstante.kTextColorPrimary,
       ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
 
       body: Center(
         child: SingleChildScrollView(
@@ -26,7 +26,7 @@ class AccountScreen extends StatelessWidget {
           
               Text(
                 "My Account".toUpperCase(),
-                style: TextStyle(
+                style: const TextStyle(
                   color: AppConstante.kTextColorPrimary,
                   fontSize: 18,
                   fontWeight: FontWeight.w400,

@@ -40,7 +40,7 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ),
         ),
 
-        SizedBox(height: 5,),
+        const SizedBox(height: 5,),
 
         const Text(
           "process and manage your orders",
@@ -56,7 +56,7 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           labelText: "Email Adress",
         ),
 
-        SizedBox(height: 30,),
+        const SizedBox(height: 30,),
 
         const AppTextFormFields(
           labelText: "Password",
@@ -115,7 +115,7 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
   Widget _buildRegisterContent() {
     return  Column(  // Supprimez le const ici
       children: [
-        Text(
+        const Text(
           "NEW TO OPENFASHION?",
           style: TextStyle(
             letterSpacing: 2,
@@ -125,9 +125,9 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ),
         ),
 
-        SizedBox(height: 5),
+        const SizedBox(height: 5),
 
-        Text(
+        const Text(
           "Register to speed up the",
           style: TextStyle(
             color: AppConstante.kTextgraySecond,
@@ -135,9 +135,9 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ),
         ),
 
-        SizedBox(height: 5),
+        const SizedBox(height: 5),
 
-        Text(
+        const Text(
           "checkout process and manage",
           style: TextStyle(
             color: AppConstante.kTextgraySecond,
@@ -145,9 +145,9 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ),
         ),
 
-        SizedBox(height: 5),
+        const SizedBox(height: 5),
 
-        Text(
+        const Text(
           "your order",
           style: TextStyle(
             color: AppConstante.kTextgraySecond,
@@ -157,7 +157,7 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
 
         SizedBox(height: 35),
 
-        Row(  // Cette Row ne peut pas être const
+        const Row(  // Cette Row ne peut pas être const
           mainAxisAlignment: MainAxisAlignment.spaceBetween,  // Ajoutez ceci pour l'espacement
           children: [
             Expanded(  // Ajoutez Expanded pour que les champs prennent l'espace disponible
@@ -174,21 +174,21 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ],
         ),
 
-        SizedBox(height: 30),
+        const SizedBox(height: 30),
 
-        AppTextFormFields(
+        const AppTextFormFields(
           labelText: "Email Adress",
         ),
 
-        SizedBox(height: 30),
+        const SizedBox(height: 30),
 
-        AppTextFormFields(
+        const AppTextFormFields(
           labelText: "Password",
         ),
 
-        SizedBox(height: 30),
+        const SizedBox(height: 30),
 
-        Text(
+        const Text(
           "By you clicking Register Now, you agree to our",
           style: TextStyle(
             color: AppConstante.kTextColorPrimary,
@@ -222,7 +222,7 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ],
         ),
 
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
 
         AppBouton(
           text: "REGISTER NOW",
@@ -232,11 +232,11 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           },
         ),
 
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
 
-        Text(
+        const Text(
           "OR",
-          style: const TextStyle(
+          style: TextStyle(
             letterSpacing: 2,
             color: AppConstante.kTextColorPrimary,
             fontSize: 20,
@@ -244,16 +244,16 @@ class _SignInRegisterScreenState extends State<SignInRegisterScreen> {
           ),
         ),
 
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
 
-        SocialAuthButton(
+        const SocialAuthButton(
           text: "SIGN IN WITH FACEBOOK",
           icon: Icons.facebook,
         ),
 
-        SizedBox(height: 25),
+        const SizedBox(height: 25),
 
-        SocialAuthButton(
+        const SocialAuthButton(
           text: "SIGN IN WITH TWITTER",
           icon: Icons.facebook,
         ),

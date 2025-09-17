@@ -24,7 +24,7 @@ class _BlogPostScreenState extends State<BlogPostScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MainAppBar(
+      appBar: const MainAppBar(
         backgroundColor: AppConstante.kBackgroundColor,
         iconColor: AppConstante.kTextColorPrimary,
       ),
@@ -93,7 +93,7 @@ class _BlogPostScreenState extends State<BlogPostScreen> {
                       ),
                       children: [
                         const TextSpan(text: "i found this",),
-                        TextSpan(
+                        const TextSpan(
                           text: " Saint Laurent canvas handbag ",
                           style: TextStyle(
                             color: AppConstante.kTextColorImportante,

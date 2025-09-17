@@ -13,14 +13,14 @@ class CollectionScreen extends StatefulWidget {
 class _CollectionScreenState extends State<CollectionScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Color(0xFF111111),
       appBar: MainAppBar(
         backgroundColor: Color(0xFF111111),
         iconColor: AppConstante.kTextColorSecondary,
       ),
       drawer: MyDrawer(),
-      body: const Center(
+      body: Center(
         child: Text('Collection Screen'),
       ),
 
