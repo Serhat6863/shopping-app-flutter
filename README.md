@@ -1,16 +1,26 @@
-# shopping
+# SHOPPING APP FLUTTER
 
-A new Flutter project.
+## INTRODUCTION
 
-## Getting Started
+Shopping app flutter est une application mobile implémentée à partir d'une maquette Figma que j'ai reproduite en Flutter. L'objectif était d'améliorer mes compétences en développement.
 
-This project is a starting point for a Flutter application.
+**Lien Figma :** [HiFashion UI Kit](https://www.figma.com/design/BMek2fD2qfXwUGzuw4Ad1F/HiFahion-Ui-Kit?node-id=417-615&t=hTdczfmg1lc4q1Ds-1)
 
-A few resources to get you started if this is your first Flutter project:
+## I - Les fonctionnalités implémentées (UI seulement)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Auth Screen** : Register et login screen
+- **Home Screen** : Design avec images, description et prix
+- **Blog Screen** : Design avec images, description et prix
+- **Shopping Basket Screen** : Gestion UI du panier
+- **Account Screen**
+- **Navigation fluide**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## II - Vidéo de démonstration
+
+<video width="320" height="240" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Démonstration de l'application
+</video>
+
+https://github.com/user-attachments/assets/f1732a38-bed5-42cd-815b-5173efec109c
+
