@@ -34,12 +34,6 @@ https://github.com/user-attachments/assets/f1732a38-bed5-42cd-815b-5173efec109c
 - `font_awesome_flutter: ^10.8.0` → Icônes FontAwesome  
 - `cupertino_icons: ^1.0.8` → Icônes iOS  
 
----
-
-## 📸 Captures d’écran
-
-
----
 
 ## ⚡ Installation
 
